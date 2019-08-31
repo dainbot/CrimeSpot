@@ -1,4 +1,41 @@
 
-.bg-color{
+.main {
     background: #080043;
+    height: 100%;
+}
+
+.crime {
+    padding-top:25%;
+    padding-bottom:50px;
+    padding-left: 50px;
+    height: 55%;
+    }
+
+.boxing {
+    background:#645F8C;
+}
+
+.loginInfo {
+  align-self: center;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+
+}
+
+
+.btn1 {
+    --border-color: #645F8C;
+    --border-width: 3px;
+    width: 110px;
+    color: whitesmoke;
+    margin-left: 50px;
+}
+
+.btn2 {
+    --border-color: #645F8C;
+    --border-width: 3px;
+    width: 110px;
+    color: whitesmoke;
 }
