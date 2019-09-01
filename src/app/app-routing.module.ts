@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'crime-report', loadChildren: './crime-report/crime-report.module#CrimeReportPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
-  { path: 'feedback', loadChildren: './feedback/feedback.module#FeedbackPageModule' },
+  { path: 'feedback', loadChildren: './feedback/feedback.module#FeedbackPageModule' },  { path: 'alertsuccess', loadChildren: './alertsuccess/alertsuccess.module#AlertsuccessPageModule' },
+
 
   
 ];
