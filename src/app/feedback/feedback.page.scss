@@ -4,15 +4,13 @@
 
 .mainer{
     background:#080048;
-    padding-bottom : 100%;
-
-}
-
-.expand{
-
-    height:10%;
+    margin:0;
+    position:fixed;
+    bottom:30px;
     width:100%;
-
+    left:0%;
+    height:80%;
+    padding:0;
 }
 
 .fonty{
@@ -33,5 +31,18 @@
 
 .boxer{
     columns: #664f8c;
+
+}
+
+.img1{
+    width: 100%;
+    height:20%;
+    z-index:100 ;
+    position:relative;
+
+}
+
+.boxers{
+    top:0px;
 
 }
